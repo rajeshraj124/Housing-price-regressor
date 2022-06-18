@@ -1,12 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import setup,find_packages
 from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.1"
+VERSION="0.0.01"
 AUTHOR="Rajesh Kumar"
-DESRCIPTION="This model is used to predict housing price"
-#PACKAGES=["housing"]
+DESRCIPTION="This ML project is used to predict houseing price"
 REQUIREMENT_FILE_NAME="requirements.txt"
 
 
@@ -27,7 +26,6 @@ name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description=DESRCIPTION,
-packages=find_packages(),
+packages=find_packages(), 
 install_requires=get_requirements_list()
-
 )
