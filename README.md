@@ -62,11 +62,9 @@ git remote -v
 ```
 
 To setup CI/CD pipeline in heroku we need 3 information
-
 1. HEROKU_EMAIL = rajeshku9560@gmail.com
 2. HEROKU_API_KEY = <>
-3. HEROKU_APP_NAME = app-ml-project
-
+3. HEROKU_APP_NAME = app-ml-regressor
 
 BUILD DOCKER IMAGE
 ```
@@ -90,9 +88,18 @@ To check running container in docker
 docker ps
 ```
 
-To stop docker conatiner
+Tos stop docker conatiner
 ```
 docker stop <container_id>
 ```
+
+
+
 ```
 python setup.py install
+```
+Install ipykernel
+
+```
+pip install ipykernel
+```
