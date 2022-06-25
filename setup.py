@@ -3,14 +3,16 @@ from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.01"
+VERSION="0.0.1"
 AUTHOR="Rajesh Kumar"
-DESRCIPTION="This ML project is used to predict houseing price"
+DESRCIPTION="This is housing price predictor model"
+
 REQUIREMENT_FILE_NAME="requirements.txt"
 
 
 def get_requirements_list()->List[str]:
     """
+   
     Description: This function is going to return list of requirement 
     mention in requirements.txt file
 
@@ -29,3 +31,4 @@ description=DESRCIPTION,
 packages=find_packages(), 
 install_requires=get_requirements_list()
 )
+
