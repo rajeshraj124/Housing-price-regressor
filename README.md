@@ -57,7 +57,6 @@ git push origin main
 ```
 
 To check remote url 
-```
 git remote -v
 ```
 
@@ -105,3 +104,11 @@ Install ipykernel
 ```
 pip install ipykernel
 ```
+
+
+Data Drift:
+When your datset stats gets change we call it as data drift
+
+
+
+## Write a function to get training file path from artifact dir
