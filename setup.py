@@ -3,9 +3,9 @@ from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.1"
+VERSION="v1.0.0.1"
 AUTHOR="Rajesh Kumar"
-DESRCIPTION="This is model is used predict housing price."
+DESRCIPTION="This project is used to california housing price prediction"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
