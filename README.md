@@ -1,5 +1,5 @@
 Application url:
-[HousingPredictor](https://app-ml-regressor.herokuapp.com/)
+[HousingPredictor](https://app-housing-price-regressor.herokuapp.com/)
 
 ## Start Machine Learning project.
 
@@ -67,7 +67,7 @@ git remote -v
 To setup CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = rajeshku9560@gmail.com
 2. HEROKU_API_KEY = <>
-3. HEROKU_APP_NAME = app-ml-regressor
+3. HEROKU_APP_NAME = app-housing-price-regressor
 
 BUILD DOCKER IMAGE
 ```
